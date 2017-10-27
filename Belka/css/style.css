@@ -1,0 +1,64 @@
+
+								/*Шрифты*/
+@font-face{
+font-family: RubArial;
+src:url(../font/b-rub_arial/alsrubl-arial-bold.ttf);
+src:url(../font/b-rub_arial/alsrubl-arial-bold.eot),
+url(../font/b-rub_arial/alsrubl-arial-bold.woff) format("woff"),
+}
+
+@font-face{
+font-family: OpenSansBold;
+src:url(../font/OpenSansBold/OpenSansBold.ttf);
+src:url(../font/OpenSansBold/OpenSansBold.eot),
+url(../font/OpenSansBold/OpenSansBold.woff) format("woff"),
+}
+
+@font-face{
+font-family: OpenSansLight;
+src:url(../font/OpenSansLight/OpenSansLight.ttf);
+src:url(../font/OpenSansLight/OpenSansLight.eot),
+url(../font/OpenSansLight/OpenSansLight.woff) format("woff"),
+}
+
+@font-face{
+font-family: OpenSansRegular;
+src:url(../font/OpenSansRegular/OpenSansRegular.ttf);
+src:url(../font/OpenSansRegular/OpenSansRegular.eot),
+url(../font/OpenSansRegular/OpenSansRegular.woff) format("woff"),
+}
+
+@font-face{
+font-family: ProximaNovaBold;
+src:url(../font/ProximaNovaBold/ProximaNovaBold.ttf);
+src:url(../font/ProximaNovaBold/ProximaNovaBold.eot),
+url(../font/ProximaNovaBold/ProximaNovaBold.woff) format("woff"),
+}
+
+@font-face{
+font-family: ProximaNovaRegular;
+src:url(../font/ProximaNovaRegular/ProximaNovaRegular.ttf);
+src:url(../font/ProximaNovaRegular/ProximaNovaRegular.eot),
+url(../font/ProximaNovaRegular/ProximaNovaRegular.woff) format("woff"),
+}
+
+													/*Общие стили*/
+body{
+	text-align: center;
+	font-family: OpenSansRegular, sans-serif;
+	font-size: 16px;
+}
+
+h1{
+	font-family: ProximaNovaBold, sans-serif;
+	font-size: 40px;
+}
+h2{
+	font-family: ProximaNovaBold, sans-serif;
+	font-size: 36px;
+	color: #211811;
+}
+h3{
+	font-family: ProximaNovaBold, sans-serif;
+	font-size: 30px;
+}
