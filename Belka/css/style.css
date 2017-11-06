@@ -84,7 +84,9 @@ button{
 /*Хедер 320*/
 .fast-contacs__inner,
 .promo__inner,
-.page-header__inner{
+.page-header__inner,
+.shares__box,
+.privilege-wrapper{
 	width: 320px;
 	margin: 0 auto;
 }
@@ -196,10 +198,23 @@ button{
 	background-size: cover;
 	background-position: top center;
 	margin-top: -31px;
+	padding-bottom: 80px;
 }
 .trails__tittle{
 	color: #fff;
 	padding-top: 20px;
+	position: relative;
+}
+.trails__tittle:after{
+	position: absolute;
+	content: '';
+	right: 0;
+	left: 0;
+	bottom: -5px;
+	margin: 0 auto;
+	width: 20%;
+	height: 2px;
+	background-color: #fff;
 }
 .slick-slider{
 	width: 215px;
@@ -280,11 +295,92 @@ button{
 	height: 45px;
 }
 
+/*Акции*/
+
+.shares__tittle{
+	position: relative;
+	top: -40px;
+}
+.shares__tittle:after{
+	position: absolute;
+	content: '';
+	left: 0;
+	right: 0;
+	bottom: -5px;
+	margin: 0 auto;
+	width: 15%;
+	height: 2px;
+	background-color: #000;
+}
+.shares__box-item{
+	height: 300px;
+}
+.shares__img{
+	width: 320px;
+	height: 290px;
+}
+.shares__text{
+	font-family: ProximaNovaBold, sans-seriff;
+	font-size: 24px;
+	padding-left: 15px;
+	position: relative;
+	top: -110px;
+	color: #fff;
+	text-align: left;
+	
+}
+
+/*Привелегии*/
+.privilege{
+	background-image: url(../img/privilege-bg320.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top center;
+	min-height: 450px;
+	padding-top: 20px;
+	margin-top: 30px;
+}
+.privilege__tittle{
+	color: #fff;
+	margin-bottom: 40px;
+	position: relative;
+}
+.privilege__tittle:after{
+	position: absolute;
+	content: '';
+	left: 0;
+	right: 0;
+	bottom: -5px;
+	margin: 0 auto;
+	width: 20%;
+	height: 2px;
+	background-color: #fff;
+}
+.privilege__item{
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.privilege__up__img{
+	padding-left: 15px;
+	width: 55px;
+	height: 55px;
+}
+.privilege__up__text{
+	color: #fff;
+	font-size: 14px;
+	text-align: left;
+	padding-left: 5px;
+}
 
 /*Медиа запросы*/
 
 @media only screen and (min-width : 768px) {
-	
+
 	.page-header{
 		background-image: url(../img/header768-bg.png);
 		background-repeat: no-repeat;

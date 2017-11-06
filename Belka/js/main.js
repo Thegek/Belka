@@ -2,7 +2,7 @@
 $(function(){
 
     $('.burger').on('click', function() {
-       $('.main-nav').slideToggle(400, function(){
+       $('.main-nav').slideToggle(350, function(){
             if( $(this).css('display') === "none"){
                 $(this).removeAttr('style');
             }
