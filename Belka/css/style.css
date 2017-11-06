@@ -165,8 +165,7 @@ button{
 .main-nav__link{
 	display: block;
 	padding: 10px 0;
-	color: #fff;
-	
+	color: #fff;	
 }
 .page-header__inner{
 	position: relative;
@@ -184,6 +183,102 @@ button{
 	cursor: pointer;
 }
 
+						/*Трассы*/
+.trails__slider{
+	margin: 0 auto;
+	position: relative;
+}
+.page-trails{
+	background-image: url(../img/track__bg.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top center;
+	margin-top: -31px;
+}
+.trails__tittle{
+	color: #fff;
+	padding-top: 20px;
+}
+.slick-slider{
+	width: 215px;
+}
+.slick-initialized .slick-slide{
+	justify-content: center;
+}
+.track{
+	background-image: url(../img/track__img1.png);
+	background-repeat: no-repeat;
+	height: 320px;
+	width: 215px;
+	background-position: center;
+	text-align: center;	
+	color: #fff;	
+}
+.track__tittle{
+	color: rgb(199, 199, 211);	
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.75);  
+}
+.track__list{
+	list-style-type: none;
+	text-align: center;
+}
+
+.track__list-item--icon-rocks{
+	background-image: url(../img/icon-rocks.png);
+	background-repeat: no-repeat;
+	width: 32px;
+	height: 20px;
+}
+.track__list-item--icon-age{
+	background-image: url(../img/icon-age.png);
+	background-repeat: no-repeat;
+	background-position: 5px 1px;
+	width: 32px;
+	height: 25px;
+}
+.track__list-item{
+	width: 115px;
+	padding-left: 35px;
+	margin-bottom: 10px;
+	line-height: 1.7;
+}
+
+.track__content{
+	color: #e7e7f2;
+	line-height: 1.5;
+	padding: 10px 10px;
+}
+
+.slick-prev{
+	position: absolute;
+	top: 40%;
+	left: -45px;
+	background-color: inherit;
+	color: transparent;
+	background-image: url(../img/prev-arrow.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	width: 25px;
+	height: 45px;
+}
+.slick-next{
+	position: absolute;
+	top: 40%;
+	left: 110%;
+	background-color: inherit;
+	color: transparent;
+	background-image: url(../img/next-arrow.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	width: 25px;
+	height: 45px;
+}
+}
 
 /*Медиа запросы*/
 /*==========  Mobile First Method  ==========*/
