@@ -220,8 +220,8 @@ button{
 	width: 215px;
 }
 .slick-initialized .slick-slide{
-	justify-content: center;
-}
+	justify-content: center;	
+}	
 .track{
 	background-image: url(../img/track__img1.png);
 	background-repeat: no-repeat;
@@ -265,7 +265,6 @@ button{
 	line-height: 1.5;
 	padding: 10px 10px;
 }
-
 .slick-prev{
 	position: absolute;
 	top: 40%;
@@ -294,7 +293,12 @@ button{
 	width: 25px;
 	height: 45px;
 }
-
+.slick-slide img{
+	display: none;
+}
+.track__img{
+	display: none;
+}
 /*Акции*/
 
 .shares__tittle{
@@ -393,7 +397,9 @@ button{
 	}	
 	.fast-contacs__inner,
 	.promo__inner,
-	.page-header__inner{
+	.page-header__inner,
+	.shares__box,
+	.privilege-wrapper{
 		width: 760px;
 		margin: 0 auto;
 	}
@@ -509,6 +515,135 @@ button{
 		text-align: left;
 		margin-right: 610px;
 	}
+
+	/*Трассы*/
+	.trails__tittle:after{
+		width: 10%;
+	}
+	.slick-slider{
+		width: 660px;
+	}
+	.track{
+		background-image: none;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		-ms-align-items: center;
+		align-items: center;
+		width: 215px;
+	}
+	.track__header{
+		background-color: rgb(34, 49, 63);
+		opacity: 0.749;
+		width: 100%;
+	}
+	.track__tittle{
+		margin-bottom: 0;
+		margin-top: 10px;
+	}
+	.track__list{
+		padding-left: 35px;
+	}
+	.slick-slide img{
+		display: block;
+	}
+	.track__img{
+		width: 215px;
+		height: 320px;
+	}
+	.slick-slide{
+		height: 595px;
+	}
+	.track__content{
+		padding: 0;
+	}
+	.track__content{
+		background-color: rgb(34, 49, 63);
+		opacity: 0.749;
+		height: 150px;
+	}
+	.track__text{
+		margin: 0;
+		padding: 10px 5px;
+	}
+	/*Акции*/
+	.shares__tittle{
+		top: -50px;
+	}
+	.shares__tittle:after{
+		width: 7%;
+	}
+		.shares__img{
+		display: none;
+	}
+	.shares__img1200{
+		display: none;
+	}
+	.shares__img1-768{
+		background-image: url(../img/shares__img1-768.png);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: bottom center;
+		width: 760px;
+		height: 260px;
+	}
+	.shares__img2-768{
+		background-image: url(../img/shares__img2-768.png);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: bottom center;
+		width: 760px;
+		height: 260px;
+	}
+	.shares__img3-768{
+		background-image: url(../img/shares__img3-768.png);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: bottom center;
+		width: 760px;
+		height: 260px;
+	}
+	.shares__box-item{
+		height: 260px;
+		margin-bottom: 15px;
+	}
+	.shares__text{
+		padding-left: 25px;
+	}
+	/*Превилегии*/
+	.privilege{
+		padding-top: 10px;
+		min-height: 385px;
+	}
+	.privilege__tittle:after{
+		width: 10%;
+	}
+	.privilege__item-wrapper{
+		display: flex;
+		justify-content: space-around;
+		-ms-align-items: center;
+		align-items: center;
+		width: 100%;
+		padding-top: 20px;
+	}
+	.privilege__item{
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		width: 30%;
+		margin-bottom: 0;
+	}
+	.privilege__up__img{
+		padding: 0;
+		width: 75px;
+		height: 75px;
+		color: #fff;
+	}
+
+	
 }
 
 
