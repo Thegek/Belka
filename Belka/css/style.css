@@ -468,7 +468,8 @@ button{
 	.shares__box,
 	.privilege-wrapper,
 	.gallery-inner,
-	.reviews-inner{
+	.reviews-inner,
+	.prices-wrapper{
 		width: 760px;
 		margin: 0 auto;
 	}
@@ -710,6 +711,9 @@ button{
 		width: 30%;
 		margin-bottom: 0;
 	}
+	.privilage-gallery__slider-list{
+		margin: 0 auto;
+	}
 	.privilege__up__img{
 		padding: 0;
 		width: 75px;
@@ -727,7 +731,12 @@ button{
 	.privilege__up__text{
 		line-height: 1.5;
 	}
-
+	.reviews-list{		
+		display: flex;
+	}
+	.reviews__tittle:after{
+		width: 15%;
+	}
 }
 
 
@@ -738,7 +747,8 @@ button{
 	.page-header__inner,
 	.trails-wrapper,
 	.shares__box,
-	.privilege-wrapper{
+	.privilege-wrapper,
+	.prices-wrapper{
 		width: 1180px;
 		margin: 0 auto;
 	}
