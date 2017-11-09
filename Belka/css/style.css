@@ -88,7 +88,8 @@ button{
 .shares__box,
 .privilege-wrapper,
 .gallery-inner,
-.reviews-inner{
+.reviews-inner,
+.page-footer-inner{
 	width: 320px;
 	margin: 0 auto;
 }
@@ -384,7 +385,7 @@ button{
 .gallery__slider{
 	padding: 50px 0;
 }
-.gallery__slider-list{
+.privilage-gallery__slider-list{
 	width: 216px;
 	margin: 0 auto;	
 }
@@ -448,6 +449,92 @@ button{
 .reviews__item-review{
 	text-align: left;
 }
+
+/*Подвал*/
+.page-footer{
+	padding-top: 1px;
+	background-color: #22313f;
+	padding-bottom: 20px;
+
+}
+.footer__left-side{
+	text-align: left;
+}
+.fast-contact-f__list{
+	list-style-type: none;
+	padding-left: 0;
+}
+.fast-contact-f__item{
+	text-align: left;
+	margin-bottom: 5px;
+}
+.fast-contacts-f__link{
+	color: #dadae7;
+	padding-left: 20px;
+}
+.fast-contact-f__item--place{
+	background-image: url(../img/fast-contact-f__item--place.png);
+	background-repeat: no-repeat;
+	background-position: 0 3px;
+	width: 15px;
+	height: 20px;
+}
+.fast-contact-f__item--phone{
+	background-image: url(../img/fast-contact-f__item--phone.png);
+	background-repeat: no-repeat;
+	background-position: 0 3px;
+}
+.footer__btn-up{
+text-align: right;
+padding-right: 15px;
+margin-bottom: 15px;
+}
+
+.footer__list{
+	list-style-type: none;
+	padding-left: 0;
+}
+.footer__item{
+	margin-bottom: 15px;
+}
+.footer__item-link{
+	text-transform: uppercase;
+	color: #dadae7;	
+}
+.footer__social{
+	display: flex;
+	list-style-type: none;
+	padding-left: 0;
+}
+.footer__social-twit{
+	background-image: url(../img/f-twitter.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 25px;
+}
+.footer__social-vk{
+	background-image: url(../img/f-vk.png);
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+	width: 25px;
+	height: 25px;
+	margin-left: 10px;
+}
+.footer__social-inst{
+	background-image: url(../img/f-instagram.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 25px;
+	margin-left: 10px;
+}
+.footer__btn-up{
+	position: relative;
+	bottom: 55px;
+	cursor: pointer;
+
+}
+
+
 /*Медиа запросы*/
 
 @media only screen and (min-width : 768px) {
@@ -591,7 +678,7 @@ button{
 		width: 10%;
 	}
 	.slick-slider{
-		width: 660px;
+		width: 768px;
 	}
 	.track{
 		background-image: none;
@@ -615,8 +702,8 @@ button{
 		padding-left: 35px;
 	}
 	.slick-slide .track__img {
-    display: block;
-  }
+		display: block;
+	}
 	.track__img{
 		width: 215px;
 		height: 320px;
@@ -711,9 +798,7 @@ button{
 		width: 30%;
 		margin-bottom: 0;
 	}
-	.privilage-gallery__slider-list{
-		margin: 0 auto;
-	}
+	
 	.privilege__up__img{
 		padding: 0;
 		width: 75px;
@@ -721,6 +806,13 @@ button{
 		line-height: 1.5;
 		color: #fff;
 	}
+	.gallery__slider{
+		min-height: 500px;
+	}
+	.gallery__slider-item{
+		height: 415px;
+	}
+
 	.wrapper_prices-reviews{
 		background-image: url(../img/review768.png);
 		background-repeat: no-repeat;
